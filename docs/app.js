@@ -1,4 +1,4 @@
-﻿var app = new Vue({
+var app = new Vue({
   el: '#app',
   data: {
     scanner: null,
