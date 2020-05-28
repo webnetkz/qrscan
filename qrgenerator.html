@@ -1,0 +1,14 @@
+<script type="text/javascript" src="qrcode.min.js"></script>
+<style>
+  img[style="display: block;"] {
+    width: 96vw;
+    height: 96vw;
+  }
+</style>
+
+<g id="qrcode"/>
+<script type="text/javascript">
+  var qrcode = new QRCode(document.getElementById("qrcode"));
+  qrcode.makeCode('https://dw.express/22342341');
+</script>
+
